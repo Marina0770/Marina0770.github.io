@@ -1,0 +1,379 @@
+/* line 5, ../../UBER2/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 7, ../../UBER2/src/sass/style.sass */
+header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 10, ../../UBER2/src/sass/style.sass */
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background: #212121;
+  z-index: 5;
+}
+
+/* line 16, ../../UBER2/src/sass/style.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 22, ../../UBER2/src/sass/style.sass */
+.menu_link {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/* line 26, ../../UBER2/src/sass/style.sass */
+.menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 29, ../../UBER2/src/sass/style.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 87px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 34, ../../UBER2/src/sass/style.sass */
+.subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 38, ../../UBER2/src/sass/style.sass */
+.subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 44, ../../UBER2/src/sass/style.sass */
+.subheader_call {
+  margin-top: 19px;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: right;
+}
+
+/* line 50, ../../UBER2/src/sass/style.sass */
+.subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+}
+
+/* line 59, ../../UBER2/src/sass/style.sass */
+.subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* line 72, ../../UBER2/src/sass/style.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/uber_bg.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 76, ../../UBER2/src/sass/style.sass */
+.promo_header {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 60px;
+  text-transform: uppercase;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 84, ../../UBER2/src/sass/style.sass */
+.promo_subheader {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 23px;
+  text-align: center;
+}
+
+/* line 93, ../../UBER2/src/sass/style.sass */
+.promo_descr {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 100, ../../UBER2/src/sass/style.sass */
+.promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+  border: none;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* line 113, ../../UBER2/src/sass/style.sass */
+.reasons {
+  background-color: #FFDAB9;
+  padding: 71px 0 65px 0;
+}
+
+/* line 117, ../../UBER2/src/sass/style.sass */
+.reasons .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 122, ../../UBER2/src/sass/style.sass */
+.reasons .reasons_block .reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+  width: 116px;
+  height: 116px;
+  background: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 131, ../../UBER2/src/sass/style.sass */
+.reasons .reasons_block .reasons_descr {
+  width: 343px;
+}
+
+/* line 133, ../../UBER2/src/sass/style.sass */
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1eacc7;
+}
+
+/* line 138, ../../UBER2/src/sass/style.sass */
+.reasons .reasons_block .reasons_descr .reasons_text {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #202020;
+}
+
+/* line 143, ../../UBER2/src/sass/style.sass */
+.label {
+  position: relative;
+  margin: 0 auto;
+  width: 112px;
+  height: 24px;
+  background: #000000;
+  padding: 5px 12px;
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 156, ../../UBER2/src/sass/style.sass */
+.label_white {
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 159, ../../UBER2/src/sass/style.sass */
+.title {
+  position: relative;
+  margin-top: 38px;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: #222222;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 169, ../../UBER2/src/sass/style.sass */
+.title_white {
+  color: #fff;
+}
+
+/* line 171, ../../UBER2/src/sass/style.sass */
+.subtitle {
+  position: relative;
+  margin-top: 19px;
+  color: #222222;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 179, ../../UBER2/src/sass/style.sass */
+.subtitle_white {
+  color: #fff;
+}
+
+/* line 182, ../../UBER2/src/sass/style.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/mobile_bg.png") center center/cover no-repeat;
+}
+
+/* line 186, ../../UBER2/src/sass/style.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 188, ../../UBER2/src/sass/style.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 195, ../../UBER2/src/sass/style.sass */
+.mobile_item_1 {
+  background: url("../img/cards/card_1.jpg") center center/cover no-repeat;
+}
+
+/* line 197, ../../UBER2/src/sass/style.sass */
+.mobile_item_2 {
+  background: url("../img/cards/card_2.jpg") center center/cover no-repeat;
+}
+
+/* line 199, ../../UBER2/src/sass/style.sass */
+.mobile_item_3 {
+  background: url("../img/cards/card_3.jpg") center center/cover no-repeat;
+}
+
+/* line 201, ../../UBER2/src/sass/style.sass */
+.mobile_item_4 {
+  background: url("../img/cards/card_4.jpg") center center/cover no-repeat;
+}
+
+/* line 203, ../../UBER2/src/sass/style.sass */
+.mobile_item_5 {
+  background: url("../img/cards/card_5.jpg") center center/cover no-repeat;
+}
+
+/* line 205, ../../UBER2/src/sass/style.sass */
+.mobile_item_6 {
+  background: url("../img/cards/card_6.jpg") center center/cover no-repeat;
+}
+
+/* line 207, ../../UBER2/src/sass/style.sass */
+.mobile_item_subtitle {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 214, ../../UBER2/src/sass/style.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 29px;
+  height: 29px;
+  background: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* line 229, ../../UBER2/src/sass/style.sass */
+.choice {
+  position: relative;
+  min-height: 895px;
+  padding: 57px 0 151px 0;
+  background: url("../img/mobile_bg.png") center center/cover no-repeat;
+}
+
+/* line 234, ../../UBER2/src/sass/style.sass */
+.choice_img {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+}
+
+/* line 240, ../../UBER2/src/sass/style.sass */
+.choice_descr {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #222222;
+}
+
+/* line 246, ../../UBER2/src/sass/style.sass */
+.choice .black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 502px;
+  width: 100%;
+  background: #070716;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
